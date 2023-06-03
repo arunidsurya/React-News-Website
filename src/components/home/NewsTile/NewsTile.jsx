@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import {hero} from "../../../dummyData"
-import HeroCard from './HeroCard';
-import './hero.css'
+import NewsCard from './NewsCard';
+import './newstile.css'
 
 
-const Hero = () => {
+const NewsTile = () => {
     const [items,setitems]=useState(hero);
   return (
     <>
@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="container">
             {items.map((item)=>{
                 return (
-                  <HeroCard item={item} />
+                  <NewsCard item={item} />
                 )
             })}
         </div>
@@ -21,4 +21,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default NewsTile

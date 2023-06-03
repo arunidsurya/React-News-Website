@@ -1,11 +1,13 @@
 import React from 'react'
-import Hero from './hero/Hero'
+import NewsTile from './NewsTile/NewsTile'
+import Home from './mainContent/ContentHome/Home'
 
 
 const Homepages = () => {
-  return (
+  return ( 
     <div>
-      <Hero />
+      <NewsTile />
+      <Home />
     </div>
   )
 }

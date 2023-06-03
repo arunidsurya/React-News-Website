@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeroCard = ({item:{id,cover,category,title,authorName,authorImg,time}}) => {
+const NewsCard = ({item:{id,cover,catgeory,title,authorName,authorImg,time}}) => {
   
   return (
     <>
@@ -9,7 +9,7 @@ const HeroCard = ({item:{id,cover,category,title,authorName,authorImg,time}}) =>
           <img src={cover} alt="" />
         </div>
         <div className="text">
-          <span className='category'>{category}</span>
+          <span className='category'>{catgeory}</span>
           <h1 className='titleBg'>{title}</h1>
 
           <div className="author flex">
@@ -22,4 +22,4 @@ const HeroCard = ({item:{id,cover,category,title,authorName,authorImg,time}}) =>
   )
 }
 
-export default HeroCard
+export default NewsCard
