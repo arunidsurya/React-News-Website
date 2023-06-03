@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from '../../../Common/Heading/Heading'
+import Heading from '../../../../common/Heading/Heading'
 import Slider from "react-slick"
-import { popular } from "../../../../dummyData"
+import { popular } from "../../../../../dummyData"
 import "./music.css"
 
 const Music = () => {

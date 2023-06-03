@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick"
 import { gallery } from '../../../dummyData'
-import Heading from '../../Common/Heading/Heading'
+import Heading from '../../common/Heading/Heading'
 import './sideContent.css'
 import SocialMedia from './SocialMedia/SocialMedia'
 import Tpost from './Tpost/Tpost'

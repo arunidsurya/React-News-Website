@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './components/Common/header/Header'
+import Header from './components/common/header/Header'
 import "./App.css"
 import {
   Routes,

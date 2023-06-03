@@ -1,20 +1,22 @@
 import React from "react"
-import Popular from "../popular/Popular"
-import "./style.css"
-import Ppost from "../Ppost/Ppost"
-import Life from "../Life/Life"
-import Music from "../Music/Music"
-import SideContent from "../../SideContent/SideContent"
+import Popular from "../mainContent/popular/Popular"
+import Ppost from "../mainContent/Ppost/Ppost"
+import Life from "../mainContent/Life/Life"
+import Music from "../mainContent/Music/Music"
+import SideContent from "../sideContent/SideContent"
+import './style.css'
 
 
-const Home = () => {
+
+
+const ContentHome = () => {
 
     return (
         <>
             <main>
                 <div className='container'>
                     <section className='mainContent'>
-                        <Popular /> 
+                        <Popular />
                         <Ppost />
                         <Life />
                         <Music />
@@ -22,10 +24,11 @@ const Home = () => {
                     <section className='sideContent'>
                         <SideContent />
                     </section>
+                    
                 </div>
             </main>
         </>
     )
 }
 
-export default Home
+export default ContentHome

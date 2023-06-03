@@ -1,13 +1,18 @@
 import React from 'react'
-import NewsTile from './NewsTile/NewsTile'
-import Home from './mainContent/ContentHome/Home'
+import NewsTile from './newsTile/NewsTile'
+
+import Discover from './discover/Discover'
+import ContentHome from './midddleContent/ContentHome/ContentHome'
+
+
 
 
 const Homepages = () => {
   return ( 
     <div>
       <NewsTile />
-      <Home />
+      <ContentHome />
+      <Discover />
     </div>
   )
 }
