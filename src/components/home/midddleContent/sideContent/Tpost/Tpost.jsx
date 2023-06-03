@@ -1,7 +1,7 @@
 import React from "react"
-import { tpost } from "../../../../dummyData"
+import { tpost } from "../../../../../dummyData"
 import "./tpost.css"
-import Heading from "../../../common/Heading/Heading"
+import Heading from "../../../../common/Heading/Heading"
 
 const Tpost = () => {
   return (
